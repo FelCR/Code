@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+}
+
+.fondoRosa{
+        background-color: pink;
+}
+
+#fondoGris{
+        background-color: grey;
+}
+
+/*Metodología BEM*/
+
+.noticia{
+    background-color: lightblue;
+}
+.noticia__titulo{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.noticia__parrafo{
+    font-family: cursive;
+}
+.noticia__titulo--uppercase{
+    text-transform: uppercase;
+}
+
+/* Box model*/
+
+.divBoxModel{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    /*margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left:10px;*/
+    margin: 30px 30px 30px 30px;
+    /*padding-top:40px;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;*/
+    padding: 10px 20px 30px 40px;
+    /*border-style:dotted;
+    border-width: 2px;
+    border-color:brown;*/
+    border: dotted 2px red;
+    display: inline-block;
+    /*position: absolute;*/
+}
+
+/*Menú con submenú*/
+
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+ }
+ li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+ 
