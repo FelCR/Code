@@ -45,6 +45,7 @@ header {
     position: fixed;
     height: 70px;
     width: 1320px;
+    background: linear-gradient(to right, rgb(114, 2, 114), rgb(175, 82, 175));
 }
 
 #botonPerfil{
